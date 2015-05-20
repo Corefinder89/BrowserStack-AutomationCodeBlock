@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="256009" started-at="2015-05-20T10:31:58Z" finished-at="2015-05-20T10:36:14Z">
+    <groups>
+    </groups>
+    <test name="FirstTest" duration-ms="22038" started-at="2015-05-20T10:31:58Z" finished-at="2015-05-20T10:32:20Z">
+      <class name="BrowserStack.BrowserStack_demo">
+        <test-method status="PASS" signature="bs_setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BrowserStack.BrowserStack_demo@3844b17b]" name="bs_setup" is-config="true" duration-ms="7117" started-at="2015-05-20T16:01:58Z" finished-at="2015-05-20T16:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs_setup -->
+        <test-method status="PASS" signature="demo_browserstack()[pri:0, instance:BrowserStack.BrowserStack_demo@3844b17b]" name="demo_browserstack" duration-ms="4477" started-at="2015-05-20T16:02:05Z" finished-at="2015-05-20T16:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_browserstack -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserStack.BrowserStack_demo@3844b17b]" name="tearDown" is-config="true" duration-ms="10426" started-at="2015-05-20T16:02:09Z" finished-at="2015-05-20T16:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrowserStack.BrowserStack_demo -->
+    </test> <!-- FirstTest -->
+    <test name="ThirdTest" duration-ms="23025" started-at="2015-05-20T10:31:58Z" finished-at="2015-05-20T10:32:21Z">
+      <class name="BrowserStack.BrowserStack_demo">
+        <test-method status="PASS" signature="bs_setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BrowserStack.BrowserStack_demo@4ad3727e]" name="bs_setup" is-config="true" duration-ms="5242" started-at="2015-05-20T16:01:58Z" finished-at="2015-05-20T16:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs_setup -->
+        <test-method status="PASS" signature="demo_browserstack()[pri:0, instance:BrowserStack.BrowserStack_demo@4ad3727e]" name="demo_browserstack" duration-ms="6287" started-at="2015-05-20T16:02:03Z" finished-at="2015-05-20T16:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_browserstack -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserStack.BrowserStack_demo@4ad3727e]" name="tearDown" is-config="true" duration-ms="11467" started-at="2015-05-20T16:02:09Z" finished-at="2015-05-20T16:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrowserStack.BrowserStack_demo -->
+    </test> <!-- ThirdTest -->
+    <test name="SecondTest" duration-ms="256009" started-at="2015-05-20T10:31:58Z" finished-at="2015-05-20T10:36:14Z">
+      <class name="BrowserStack.BrowserStack_demo">
+        <test-method status="PASS" signature="bs_setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BrowserStack.BrowserStack_demo@48aee668]" name="bs_setup" is-config="true" duration-ms="5244" started-at="2015-05-20T16:01:58Z" finished-at="2015-05-20T16:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs_setup -->
+        <test-method status="FAIL" signature="demo_browserstack()[pri:0, instance:BrowserStack.BrowserStack_demo@48aee668]" name="demo_browserstack" duration-ms="249254" started-at="2015-05-20T16:02:03Z" finished-at="2015-05-20T16:06:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242.99 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Soumya-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: a11eba347531d4140ff6d85eb6a6fbb882e7813b
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, chrome.chromedriverVersion=26.0.1383.0, javascriptEnabled=true, acceptSslCerts=false, browserName=chrome, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=a11eba347531d4140ff6d85eb6a6fbb882e7813b, version=26.0.1410.43, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242.99 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Soumya-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: a11eba347531d4140ff6d85eb6a6fbb882e7813b
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, chrome.chromedriverVersion=26.0.1383.0, javascriptEnabled=true, acceptSslCerts=false, browserName=chrome, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=a11eba347531d4140ff6d85eb6a6fbb882e7813b, version=26.0.1410.43, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$da9ddf9e.close(<generated>)
+	at BrowserStack.BrowserStack_demo.demo_browserstack(BrowserStack_demo.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo_browserstack -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:BrowserStack.BrowserStack_demo@48aee668]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-05-20T16:06:12Z" finished-at="2015-05-20T16:06:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.47 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Soumya-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: a11eba347531d4140ff6d85eb6a6fbb882e7813b
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, chrome.chromedriverVersion=26.0.1383.0, javascriptEnabled=true, acceptSslCerts=false, browserName=chrome, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=a11eba347531d4140ff6d85eb6a6fbb882e7813b, version=26.0.1410.43, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.47 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Soumya-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: a11eba347531d4140ff6d85eb6a6fbb882e7813b
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, chrome.chromedriverVersion=26.0.1383.0, javascriptEnabled=true, acceptSslCerts=false, browserName=chrome, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=a11eba347531d4140ff6d85eb6a6fbb882e7813b, version=26.0.1410.43, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:468)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$da9ddf9e.quit(<generated>)
+	at BrowserStack.BrowserStack_demo.tearDown(BrowserStack_demo.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrowserStack.BrowserStack_demo -->
+    </test> <!-- SecondTest -->
+  </suite> <!-- Suite -->
+</testng-results>
