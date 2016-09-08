@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38023" started-at="2016-09-08T15:28:02Z" finished-at="2016-09-08T15:28:40Z">
+    <groups>
+    </groups>
+    <test name="Test on Chrome" duration-ms="22321" started-at="2016-09-08T15:28:02Z" finished-at="2016-09-08T15:28:24Z">
+      <class name="BrowserStack.ExecuteFunctionalities">
+        <test-method status="PASS" signature="browser_configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BrowserStack.ExecuteFunctionalities@25aa370b]" name="browser_configuration" is-config="true" duration-ms="6319" started-at="2016-09-08T20:58:02Z" finished-at="2016-09-08T20:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_configuration -->
+        <test-method status="PASS" signature="executeFunctions()[pri:0, instance:BrowserStack.ExecuteFunctionalities@25aa370b]" name="executeFunctions" duration-ms="15951" started-at="2016-09-08T20:58:08Z" finished-at="2016-09-08T20:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeFunctions -->
+      </class> <!-- BrowserStack.ExecuteFunctionalities -->
+    </test> <!-- Test on Chrome -->
+    <test name="Test on Safari" duration-ms="38023" started-at="2016-09-08T15:28:02Z" finished-at="2016-09-08T15:28:40Z">
+      <class name="BrowserStack.ExecuteFunctionalities">
+        <test-method status="PASS" signature="browser_configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BrowserStack.ExecuteFunctionalities@3cc3b9c9]" name="browser_configuration" is-config="true" duration-ms="12967" started-at="2016-09-08T20:58:02Z" finished-at="2016-09-08T20:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yosemite]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_configuration -->
+        <test-method status="PASS" signature="executeFunctions()[pri:0, instance:BrowserStack.ExecuteFunctionalities@3cc3b9c9]" name="executeFunctions" duration-ms="25033" started-at="2016-09-08T20:58:15Z" finished-at="2016-09-08T20:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeFunctions -->
+      </class> <!-- BrowserStack.ExecuteFunctionalities -->
+    </test> <!-- Test on Safari -->
+  </suite> <!-- Suite -->
+</testng-results>

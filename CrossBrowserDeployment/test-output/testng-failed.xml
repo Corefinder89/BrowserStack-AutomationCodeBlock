@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser_version" value="8.0"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="browser" value="Safari"/>
+  <parameter name="os_version" value="Yosemite"/>
+  <test name="Test on Chrome(failed)" parallel="tests">
+    <parameter name="browser_version" value="22.0"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="os_version" value="8"/>
+    <classes>
+      <class name="BrowserStack.ExecuteFunctionalities">
+        <methods>
+          <include name="browser_configuration"/>
+          <include name="browser_configuration"/>
+          <include name="executeFunctions"/>
+        </methods>
+      </class> <!-- BrowserStack.ExecuteFunctionalities -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

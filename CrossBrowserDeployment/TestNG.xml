@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test name="Test on Chrome">
+	  <parameter name="browser" value="Chrome"/>
+	  <parameter name="browser_version" value="43.0"/>
+	  <parameter name="os" value="Windows"/>
+	  <parameter name="os_version" value="7"/>
+	    <classes>
+	      <class name="BrowserStack.ExecuteFunctionalities"/>
+	    </classes>
+  </test> <!-- Test -->
+  <test name="Test on Safari">
+	  <parameter name="browser" value="Safari"/>
+	  <parameter name="browser_version" value="8.0"/>
+	  <parameter name="os" value="OS X"/>
+	  <parameter name="os_version" value="Yosemite"/>
+	    <classes>
+	      <class name="BrowserStack.ExecuteFunctionalities"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
