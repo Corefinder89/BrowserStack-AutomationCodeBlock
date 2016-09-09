@@ -18,11 +18,10 @@ public class Configuration
 	WebDriver driver;
 	
 	@BeforeClass
-	@org.testng.annotations.Parameters(value={"browser","browser_version","os","os_version"})
+	@org.testng.annotations.Parameters(value={"browser","browser_version","os","os_version","resolution"})
 	
-	public WebDriver browser_configuration(String browser,String browser_version,String os,String os_version)
+	public WebDriver browser_configuration(String browser,String browser_version,String os,String os_version,String resolution)
 	{
-		//driver = new FirefoxDriver();
 		final String USERNAME = "soumyajitbasu2";
 		final String AUTOMATE_KEY = "LQrXpBax441bhp659Rkm";
 		final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -34,6 +33,7 @@ public class Configuration
 			caps.setCapability("browser_version",browser_version);
 			caps.setCapability("os",os);
 			caps.setCapability("os_version",os_version);
+			caps.setCapability("resolution",resolution);
 			caps.setCapability("project","Project-1");
 			caps.setCapability("build","1.0");
 			caps.setCapability("browserstack.debug","true");

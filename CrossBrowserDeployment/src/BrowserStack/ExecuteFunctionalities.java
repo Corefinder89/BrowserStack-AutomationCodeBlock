@@ -8,7 +8,9 @@ public class ExecuteFunctionalities extends FunctionalAutomationProcess
 	public void executeFunctions() throws Exception
 	{
 		SignIn();
-		CashAccounts();
+		Account_Activity();
+		Transfer_Funds();
+		Pay_Bills();
 		driver.quit();
 	}
 }

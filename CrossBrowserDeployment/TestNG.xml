@@ -6,6 +6,7 @@
 	  <parameter name="browser_version" value="43.0"/>
 	  <parameter name="os" value="Windows"/>
 	  <parameter name="os_version" value="7"/>
+	  <parameter name="resolution" value="1024x768"/>
 	    <classes>
 	      <class name="BrowserStack.ExecuteFunctionalities"/>
 	    </classes>
@@ -15,6 +16,17 @@
 	  <parameter name="browser_version" value="8.0"/>
 	  <parameter name="os" value="OS X"/>
 	  <parameter name="os_version" value="Yosemite"/>
+	  <parameter name="resolution" value="1024x768"/>
+	    <classes>
+	      <class name="BrowserStack.ExecuteFunctionalities"/>
+	    </classes>
+  </test> <!-- Test -->
+  <test name="Test on Firefox">
+	  <parameter name="browser" value="Firefox"/>
+	  <parameter name="browser_version" value="44.0"/>
+	  <parameter name="os" value="Windows"/>
+	  <parameter name="os_version" value="10"/>
+	  <parameter name="resolution" value="1024x768"/>
 	    <classes>
 	      <class name="BrowserStack.ExecuteFunctionalities"/>
 	    </classes>
