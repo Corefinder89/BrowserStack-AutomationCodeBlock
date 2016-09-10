@@ -51,7 +51,7 @@ public class Configuration
 	public String readConfigProperties(String parameter) throws IOException,FileNotFoundException
 	{
 		Properties prop = new Properties();
-		String path = "E:\\Devops\\CrossBrowserDeployment\\src\\BrowserStack\\Information.properties";
+		String path = "../CrossBrowserDeployment/Information.properties";
 		FileInputStream fis = new FileInputStream(path);
 		prop.load(fis);
 		String value = prop.getProperty(parameter);
