@@ -22,8 +22,8 @@ public class Configuration
 	
 	public WebDriver browser_configuration(String browser,String browser_version,String os,String os_version,String resolution)
 	{
-		final String USERNAME = "soumyajitbasu2";
-		final String AUTOMATE_KEY = "LQrXpBax441bhp659Rkm";
+		final String USERNAME = "testautomation9";
+		final String AUTOMATE_KEY = "ZyKsnqYgfphvaJDDguz1";
 		final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 		
 		try
