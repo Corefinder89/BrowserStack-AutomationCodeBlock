@@ -1,4 +1,4 @@
-#Cross Browser Testing using BrowserStack
+<h1>Cross Browser Testing using BrowserStack</h1>
 To get started with Cross Browser testing please clone this repository.
 <br>
 **Step-1:** Register your account with `BrowserStack`.<br>
