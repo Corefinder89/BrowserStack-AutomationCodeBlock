@@ -8,4 +8,4 @@ To get started with Cross Browser testing please clone this repository.
 **Step-5:** Use the `Selenium jars` as required for the required selenium classes and methods.<br>
 **Step-6:** Get TestNG from eclipse market place to run and configure your automation tests.<br>
 <br>
-**Note:** For more details please visit my [blog](https://soumyajit2016.wordpress.com/2016/09/10/cross-browser-automation-using-browserstack-services/)
+**Note:** For more details please visit my [blog](https://soumyajit2016.wordpress.com/2016/09/10/cross-browser-automation-using-browserstack-services/) link
